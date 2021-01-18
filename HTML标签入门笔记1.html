@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>HTML入门笔记（1）</title>
+</head>
+<body>
+    <header>这是我的学习blog</header>
+    <hr>
+    <main>
+        <h1>HTML入门笔记（1）</h1>
+        <section>
+          <section>
+            <h2>目录</h2>
+            <ol>
+                <li><a href="#faming">HTML是谁发明的</a></li>
+                <li><a href="#qishou">HTML起手式应该写什么</a></li>
+                <li><a href="#zahngjie">常用的表章节的标签有哪些及含义</a></li>
+                <li><a href="#quanju">全局属性有哪些</a></li>
+                <li><a href="#hanyi">常用的内容标签有哪些及含义</a></li>
+            </ol>
+          </section>
+          <section>
+            <h3 id="faming">HTML是谁发明的</h3>
+            <ul>
+                <li><strong>HTML</strong>的全名是<strong>“超文本标记语言”</strong>（HyperText Markup Language），上个世纪90年代由欧洲核子研究中心的物理学家<strong><em>蒂姆·伯纳斯-李（Tim Berners-Lee）</em></strong>发明。</li>
+            </ul>
+          </section>
+          <section>
+            <h3 id="qishou"><strong>HTML</strong>起手式应该写什么</h3>
+            <ul>
+                <li>首先确定文档格式为<em>html</em></li>
+                <li>输入<em>!</em></li>
+                <li>点击<em>tab确定</em></li>
+                <li>可修改<code>lang=“en”为lang=“zh-CN”</code></p></li>
+            </ul>
+            
+          </section>
+          <section>
+            <h3 id="zahngjie">常用的表章节的标签有哪些及含义</h3>
+            <p>
+                <ul>
+                    <li><code>&lt;h&gt;</code>：标题。&lt;h1&gt;--&lt;h6&gt;标题字体由大到小</li>
+                    <li><code>&lt;section&gt;</code>：章节。</li>
+                    <li><code>&lt;article&gt;</code>：文章。</li>
+                    <li><code>&lt;p&gt;</code>：段落。</li>
+                    <li><code>&lt;header&gt;</code>：头部。</li>
+                    <li><code>&lt;footer&gt;</code>：脚部。</li>
+                    <li><code>&lt;main&gt;</code>：主要内容。</li>
+                    <li><code>&lt;aside&gt;</code>：旁支。</li>
+                    <li><code>&lt;div&gt;</code>：划分。</li>
+                </ul>
+            </p>
+          </section>
+          <section>
+            <h3 id="quanju">全局属性有哪些</h3>
+                <ul>
+                    <li><code>&lt;class&gt;</code>：多数时间用来标记某一个标签。</li>
+                    <li><code>&lt;contenteditable&gt;</code>：使其可编辑。</li>
+                    <li><code>&lt;hideden&gt;</code>：使其隐藏（可以通过css使其显示）</li>
+                    <li><code>&lt;id&gt;</code>：标记标签（要求是唯一标签，尽量减少使用因为不会报错）。</li>
+                    <li><code>&lt;style&gt;</code>：控制一些显示属性(例如：边框颜色粗细，背景色；优先级高于CSS，但是JS可以覆盖<code>&lt;style&gt;</code>)</li>
+                    <li><code>&lt;tabindex&gt;</code>：使其可以用tab键操作（按照编辑的数字顺序先后选择1,2,3...特殊值：0最后选中，负数不被选中）</li>
+                    <li><code>&lt;title&gt;</code>：用于显示完整的内容。</li>    
+                </ul>
+          </section>
+          <section>
+            <h3 id="hanyi">常用的内容标签有哪些及含义</h3>
+                <ul>
+                    <li><code>&lt;ol&gt;+&lt;li&gt;</code>：有序的列表。</li>
+                    <li><code>&lt;ul&gt;+&lt;li&gt;</code>：无序列表。</li>
+                    <li><code>&lt;dl&gt;+&lt;dt&gt;+&lt;dd&gt;</code>：&lt;dt&gt;用于描述谁，&lt;dd&gt;用于描述内容</li>
+                    <li><code>&lt;pre&gt;</code>：保留写代码时的编辑格式如空格，回车...</li>
+                    <li><code>&lt;hr&gt;</code>：分割线</li>
+                    <li><code>&lt;br&gt;</code>：打断（强制换行）</li>
+                    <li><code>&lt;a&gt;</code>：超链接（重点标签）</li> 
+                    <li><code>&lt;em&gt;</code>：强调（斜体文本）</li>
+                    <li><code>&lt;strong&gt;</code>：强调（加粗字体）</li>
+                    <li><code>&lt;code&gt;</code>：是字体等宽，一般用来写网页展示出的代码</li>
+                    <li><code>&lt;quote&gt;</code>：引用（行级）</li>
+                    <li><code>&lt;blockquote&gt;</code>：引用（块级）</li>
+                </ul>
+          </section>
+        </section>
+    </main>
+    
+    <aside>
+        更多标签知识点击<a href="https://wangdoc.com/html/index.html" target="_blank">网道</a>
+    </aside>
+    <hr>
+    <footer>Article By ChenBao References Are From&copy;<a href="https://jirengu.com/" target="_blank">JIERNGU</a></footer>
+</body>
+</html>
